@@ -1,6 +1,9 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Timestamp from "react-timestamp";
+import logo from "./logo.svg";
+import "./App.css";
+
+// const Timestamp = require("react-timestamp");
 
 class App extends Component {
   render() {
@@ -10,6 +13,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <p>
+            <Timestamp
+              time="2015-10-10 10:30:00"
+              format="full"
+              twentyFourHour
+            />
           </p>
           <a
             className="App-link"
