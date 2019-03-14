@@ -7,12 +7,13 @@ const CalendarWrapper = styled.div`
   width: 100vw;
   /* min-height: 100vh; */
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   /* grid-template-rows: minmax(20vw, 1fr); */
 
   > div {
     border: 1px solid blue;
-    padding: 10vw;
+    padding: 10%;
+    /* box-sizing: border-box; */
     /* min-height: 20vw; */
   }
 `;
