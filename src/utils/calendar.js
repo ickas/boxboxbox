@@ -1,42 +1,26 @@
 const calendar = [
   {
-    key: 1,
-    name: "FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019",
-    race: {
-      day: 17,
-      month: "mar",
-      phase: "Race",
-      startTime: "05:10",
-      endTime: "07:10"
-    },
-    quali: {
-      day: 16,
-      month: "mar",
-      phase: "Qualifying",
-      startTime: "06:00",
-      endTime: "07:00"
-    },
-    fp3: {
-      day: 16,
-      month: "mar",
-      phase: "Practice 3",
-      startTime: "03:00",
-      endTime: "04:00"
-    },
-    fp2: {
-      day: 15,
-      month: "mar",
-      phase: "Practice 2",
-      startTime: "05:00",
-      endTime: "06:30"
-    },
-    fp1: {
-      day: 15,
-      month: "mar",
-      phase: "Practice 1",
-      startTime: "01:00",
-      endTime: "02:30"
-    }
+    title: "FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019",
+    raceDay: 17,
+    raceMonth: "mar",
+    raceStart: "05:10",
+    raceEnd: "07:10",
+    qualiDay: 16,
+    qualiMonth: "mar",
+    qualiStart: "06:00",
+    qualiEnd: "07:00",
+    fp3Day: 16,
+    fp3Month: "mar",
+    fp3Start: "03:00",
+    fp3End: "04:00",
+    fp2Day: 15,
+    fp2Month: "mar",
+    fp2Start: "05:00",
+    fp2End: "06:30",
+    fp1Day: 15,
+    fp1Month: "mar",
+    fp1Start: "01:00",
+    fp1End: "02:30"
   }
 ];
 

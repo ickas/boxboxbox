@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import Timestamp from "react-timestamp";
 import styled from "styled-components";
 
 const DayItem = styled.div`
@@ -51,6 +52,7 @@ export default class extends Component {
           {this.props.phase}
           <span>
             {this.props.startTime} - {this.props.endTime}
+            {/* <Timestamp time="2015-10-10 10:30:00" format="full" twentyFourHour /> */}
           </span>
         </div>
       </DayItem>
