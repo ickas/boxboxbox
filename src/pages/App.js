@@ -1,123 +1,56 @@
 import React, { Component } from "react";
 // import Timestamp from "react-timestamp";
-import styled from "styled-components";
 
-const CalendarWrapper = styled.div`
-  width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
-  padding: 20px;
-
-  > div {
-    border: 10px solid #38383f;
-    border-left: 0;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    padding: 20px;
-
-    &.active {
-      border-color: var(--red, #e10600);
-    }
-
-    h1 {
-      font-size: 1rem;
-      font-weight: 700;
-    }
-
-    .schedule {
-      .schedule-item {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-
-        &:not(:last-child) {
-          margin-bottom: 10px;
-        }
-
-        .day {
-          width: 50px;
-          text-align: center;
-
-          span {
-            display: block;
-            background-color: #38383f;
-            height: 20px;
-            border-radius: 10px;
-            font-size: 12px;
-            line-height: 20px;
-            text-transform: uppercase;
-          }
-        }
-
-        .cenas {
-          border-left: 1px dashed #38383f;
-          margin-left: 20px;
-          width: 100%;
-          padding-left: 20px;
-
-          span {
-            display: block;
-            height: 20px;
-            font-size: 12px;
-            line-height: 20px;
-          }
-        }
-      }
-    }
-  }
-`;
+import CalendarWrapper from "../design-system/organisms/CalendarWrapper";
+import CalendarItem from "../design-system/molecules/CalendarItem";
+import Title from "../design-system/atoms/Title";
+import DayWrapper from "../design-system/organisms/DayWrapper";
+import DayItem from "../design-system/molecules/DayItem";
 
 class App extends Component {
   render() {
     return (
       <CalendarWrapper>
-        <div className="active">
-          <h1>FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019</h1>
-          <div className="schedule">
-            <div className="schedule-item">
-              <div className="day">
-                17 <span>Mar</span>
-              </div>
-              <div className="cenas">
-                Race <span>05:10 - 07:10</span>
-              </div>
-            </div>
-            <div className="schedule-item">
-              <div className="day">
-                16 <span>Mar</span>
-              </div>
-              <div className="cenas">
-                Qualifying <span>06:00 - 07:00</span>
-              </div>
-            </div>
-
-            <div className="schedule-item">
-              <div className="day">
-                16 <span>Mar</span>
-              </div>
-              <div className="cenas">
-                Practice 3 <span>03:00 - 04:00</span>
-              </div>
-            </div>
-            <div className="schedule-item">
-              <div className="day">
-                15 <span>Mar</span>
-              </div>
-              <div className="cenas">
-                Practice 2 <span>05:00 - 06:30</span>
-              </div>
-            </div>
-            <div className="schedule-item">
-              <div className="day">
-                15 <span>Mar</span>
-              </div>
-              <div className="cenas">
-                Practice 1 <span>01:00 - 02:30</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <CalendarItem active>
+          <Title value="FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019" />
+          <DayWrapper>
+            <DayItem
+              day={17}
+              month="mar"
+              phase="Race"
+              startTime="05:10"
+              endTime="07:10"
+            />
+            <DayItem
+              day={16}
+              month="mar"
+              phase="Qualifying"
+              startTime="06:00"
+              endTime="07:00"
+            />
+            <DayItem
+              day={16}
+              month="mar"
+              phase="Practice 3"
+              startTime="03:00"
+              endTime="04:00"
+            />
+            <DayItem
+              day={15}
+              month="mar"
+              phase="Practice 2"
+              startTime="05:00"
+              endTime="06:30"
+            />
+            <DayItem
+              day={15}
+              month="mar"
+              phase="Practice 1"
+              startTime="01:00"
+              endTime="02:30"
+            />
+          </DayWrapper>
+        </CalendarItem>
         <div>2</div>
         <div>3</div>
         <div>4</div>
