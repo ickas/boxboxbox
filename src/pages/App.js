@@ -10,15 +10,10 @@ const CalendarWrapper = styled.div`
   padding: 20px;
 
   > div {
-    /* background-color: var(--dark-grey, #15151e); */
     border: 10px solid #38383f;
     border-left: 0;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    /* border-width: 0 15px;
-    border-style: solid;
-    border-color: var(--red, #e10600);
-    border-radius: 25px; */
     padding: 20px;
 
     &.active {
@@ -29,6 +24,47 @@ const CalendarWrapper = styled.div`
       font-size: 1rem;
       font-weight: 700;
     }
+
+    .schedule {
+      .schedule-item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+
+        .day {
+          width: 50px;
+          text-align: center;
+
+          span {
+            display: block;
+            background-color: #38383f;
+            height: 20px;
+            border-radius: 10px;
+            font-size: 12px;
+            line-height: 20px;
+            text-transform: uppercase;
+          }
+        }
+
+        .cenas {
+          border-left: 1px dashed #38383f;
+          margin-left: 20px;
+          width: 100%;
+          padding-left: 20px;
+
+          span {
+            display: block;
+            height: 20px;
+            font-size: 12px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
   }
 `;
 
@@ -38,11 +74,49 @@ class App extends Component {
       <CalendarWrapper>
         <div className="active">
           <h1>FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019</h1>
-          <p>17 Mar / 05:10 - 07:10 / Race</p>
-          <p>16 Mar / 06:00 - 07:00 / Qualifying</p>
-          <p>16 Mar / 03:00 - 04:00 / Practice 3</p>
-          <p>15 Mar / 05:00 - 06:30 / Practice 2</p>
-          <p>15 Mar / 01:00 - 02:30 / Practice 1</p>
+          <div className="schedule">
+            <div className="schedule-item">
+              <div className="day">
+                17 <span>Mar</span>
+              </div>
+              <div className="cenas">
+                Race <span>05:10 - 07:10</span>
+              </div>
+            </div>
+            <div className="schedule-item">
+              <div className="day">
+                16 <span>Mar</span>
+              </div>
+              <div className="cenas">
+                Qualifying <span>06:00 - 07:00</span>
+              </div>
+            </div>
+
+            <div className="schedule-item">
+              <div className="day">
+                16 <span>Mar</span>
+              </div>
+              <div className="cenas">
+                Practice 3 <span>03:00 - 04:00</span>
+              </div>
+            </div>
+            <div className="schedule-item">
+              <div className="day">
+                15 <span>Mar</span>
+              </div>
+              <div className="cenas">
+                Practice 2 <span>05:00 - 06:30</span>
+              </div>
+            </div>
+            <div className="schedule-item">
+              <div className="day">
+                15 <span>Mar</span>
+              </div>
+              <div className="cenas">
+                Practice 1 <span>01:00 - 02:30</span>
+              </div>
+            </div>
+          </div>
         </div>
         <div>2</div>
         <div>3</div>
