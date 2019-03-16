@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 import Title from "../atoms/Title";
 import DayWrapper from "../organisms/DayWrapper";
@@ -12,11 +12,16 @@ const CalendarItem = styled.div`
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   padding: 20px;
+
+  /* &:first-child {
+    border-color: #e10600;
+  } */
 `;
 
 export default class extends Component {
   render() {
     const {
+      active,
       title,
       raceDay,
       raceMonth,
@@ -41,7 +46,7 @@ export default class extends Component {
     } = this.props.details;
 
     return (
-      <CalendarItem {...this.props}>
+      <CalendarItem active={active}>
         <Title value={title} />
         <DayWrapper>
           <DayItem

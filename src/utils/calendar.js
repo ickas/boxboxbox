@@ -1,5 +1,6 @@
 const calendar = [
   {
+    active: true,
     title: "FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019",
     raceDay: 17,
     raceMonth: "mar",
@@ -23,6 +24,7 @@ const calendar = [
     fp1End: "02:30"
   },
   {
+    active: false,
     title: "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2019",
     raceDay: 31,
     raceMonth: "mar",
@@ -46,6 +48,7 @@ const calendar = [
     fp1End: "12:30"
   },
   {
+    active: false,
     title: "FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2019",
     raceDay: 14,
     raceMonth: "apr",
@@ -69,6 +72,7 @@ const calendar = [
     fp1End: "04:30"
   },
   {
+    active: false,
     title: "FORMULA 1 AZERBAIJAN GRAND PRIX 2019",
     raceDay: 28,
     raceMonth: "apr",
@@ -93,6 +97,7 @@ const calendar = [
   },
 
   {
+    active: false,
     title: "FORMULA 1 EMIRATES GRAN PREMIO DE ESPAÑA 2019",
     raceDay: 12,
     raceMonth: "may",
@@ -116,6 +121,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 GRAND PRIX DE MONACO 2019",
     raceDay: 26,
     raceMonth: "may",
@@ -139,6 +145,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2019",
     raceDay: 9,
     raceMonth: "jun",
@@ -162,6 +169,7 @@ const calendar = [
     fp1End: "16:30"
   },
   {
+    active: false,
     title: "FORMULA 1 GRAND PRIX DE FRANCE 2019",
     raceDay: 23,
     raceMonth: "jun",
@@ -185,6 +193,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 MYWORLD GROSSER PREIS VON ÖSTERREICH 2019",
     raceDay: 30,
     raceMonth: "jun",
@@ -208,6 +217,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 ROLEX BRITISH GRAND PRIX 2019",
     raceDay: 14,
     raceMonth: "jul",
@@ -231,6 +241,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 MERCEDES-BENZ GROSSER PREIS VON DEUTSCHLAND 2019",
     raceDay: 28,
     raceMonth: "jul",
@@ -254,6 +265,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 MAGYAR NAGYDÍJ 2019",
     raceDay: 4,
     raceMonth: "aug",
@@ -277,6 +289,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 JOHNNIE WALKER BELGIAN GRAND PRIX 2019",
     raceDay: 1,
     raceMonth: "sep",
@@ -300,6 +313,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 GRAN PREMIO HEINEKEN D'ITALIA 2019",
     raceDay: 8,
     raceMonth: "sep",
@@ -323,6 +337,7 @@ const calendar = [
     fp1End: "11:30"
   },
   {
+    active: false,
     title: "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2019",
     raceDay: 22,
     raceMonth: "sep",
@@ -346,6 +361,7 @@ const calendar = [
     fp1End: "11:00"
   },
   {
+    active: false,
     title: "FORMULA 1 VTB RUSSIAN GRAND PRIX 2019",
     raceDay: 29,
     raceMonth: "sep",
@@ -369,6 +385,7 @@ const calendar = [
     fp1End: "10:30"
   },
   {
+    active: false,
     title: "FORMULA 1 JAPANESE GRAND PRIX 2019",
     raceDay: 13,
     raceMonth: "oct",
@@ -392,6 +409,7 @@ const calendar = [
     fp1End: "03:30"
   },
   {
+    active: false,
     title: "FORMULA 1 GRAN PREMIO DE MÉXICO 2019",
     raceDay: 27,
     raceMonth: "oct",
@@ -415,6 +433,7 @@ const calendar = [
     fp1End: "17:30"
   },
   {
+    active: false,
     title: "FORMULA 1 UNITED STATES GRAND PRIX 2019",
     raceDay: 3,
     raceMonth: "nov",
@@ -438,6 +457,7 @@ const calendar = [
     fp1End: "17:30"
   },
   {
+    active: false,
     title: "FORMULA 1 HEINEKEN GRANDE PRÊMIO DO BRASIL 2019",
     raceDay: 17,
     raceMonth: "nov",
@@ -461,6 +481,7 @@ const calendar = [
     fp1End: "14:30"
   },
   {
+    active: false,
     title: "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2019",
     raceDay: 1,
     raceMonth: "dec",

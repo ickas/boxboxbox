@@ -14,7 +14,6 @@ class App extends Component {
       <CalendarWrapper>
         {Object.keys(this.state.calendar).map(key => (
           <CalendarItem
-            // active
             key={key}
             index={key}
             details={this.state.calendar[key]}
