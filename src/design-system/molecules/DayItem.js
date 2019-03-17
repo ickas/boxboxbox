@@ -42,10 +42,6 @@ const DayItem = styled.div`
 
 export default class extends Component {
   render() {
-    var event = new Date(Date.UTC(2019, 2, 17, 5, 10, 0));
-    // console.log(event.toLocaleString("en-GB", { timeZone: "UTC" }));
-    console.log(event.toLocaleString("en-GB"));
-
     return (
       <DayItem>
         <div className="date">
