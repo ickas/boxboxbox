@@ -7,7 +7,8 @@ import DayItem from "../molecules/DayItem";
 
 const CalendarItem = styled.div`
   border: 10px solid;
-  border-color: ${props => (props.active ? "#e10600" : "#38383f")};
+  border-color: ${props =>
+    props.active ? "var(--red, #e10600)" : "var(--light-grey, #38383f)"};
   border-left: 0;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;

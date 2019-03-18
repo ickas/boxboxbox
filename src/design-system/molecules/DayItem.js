@@ -17,7 +17,7 @@ const DayItem = styled.div`
 
     span {
       display: block;
-      background-color: #38383f;
+      background-color: var(--light-grey, #38383f);
       height: 20px;
       border-radius: 10px;
       font-size: 12px;
@@ -27,7 +27,7 @@ const DayItem = styled.div`
   }
 
   .phase {
-    border-left: 1px dashed #38383f;
+    border-left: 1px dashed var(--light-grey, #38383f);
     margin-left: 20px;
     width: 100%;
     padding-left: 20px;
