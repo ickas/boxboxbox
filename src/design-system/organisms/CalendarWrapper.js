@@ -6,7 +6,7 @@ const CalendarWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
-  padding: 20px;
+  padding: 90px 20px 20px 20px;
 `;
 
 export default class extends Component {
