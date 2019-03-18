@@ -12,10 +12,6 @@ const CalendarItem = styled.div`
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   padding: 20px;
-
-  /* &:first-child {
-    border-color: #e10600;
-  } */
 `;
 
 export default class extends Component {
