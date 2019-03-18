@@ -1,6 +1,6 @@
 const calendar = [
   {
-    active: true,
+    active: false,
     title: "FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019",
     raceDay: 17,
     raceMonth: "mar",
@@ -24,7 +24,7 @@ const calendar = [
     fp1End: "02:30"
   },
   {
-    active: false,
+    active: true,
     title: "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2019",
     raceDay: 31,
     raceMonth: "mar",
