@@ -20,70 +20,17 @@ const CalendarItem = styled.div`
 
 export default class extends Component {
   render() {
-    const {
-      active,
-      title,
-      raceDay,
-      raceMonth,
-      raceStart,
-      raceEnd,
-      qualiDay,
-      qualiMonth,
-      qualiStart,
-      qualiEnd,
-      fp3Day,
-      fp3Month,
-      fp3Start,
-      fp3End,
-      fp2Day,
-      fp2Month,
-      fp2Start,
-      fp2End,
-      fp1Day,
-      fp1Month,
-      fp1Start,
-      fp1End
-    } = this.props.details;
+    const { active, title, race, quali, fp3, fp2, fp1 } = this.props.details;
 
     return (
       <CalendarItem active={active}>
         <Title value={title} />
         <DayWrapper>
-          <DayItem
-            day={raceDay}
-            month={raceMonth}
-            phase="Race"
-            startTime={raceStart}
-            endTime={raceEnd}
-          />
-          <DayItem
-            day={qualiDay}
-            month={qualiMonth}
-            phase="Qualifying"
-            startTime={qualiStart}
-            endTime={qualiEnd}
-          />
-          <DayItem
-            day={fp3Day}
-            month={fp3Month}
-            phase="Practice 3"
-            startTime={fp3Start}
-            endTime={fp3End}
-          />
-          <DayItem
-            day={fp2Day}
-            month={fp2Month}
-            phase="Practice 2"
-            startTime={fp2Start}
-            endTime={fp2End}
-          />
-          <DayItem
-            day={fp1Day}
-            month={fp1Month}
-            phase="Practice 1"
-            startTime={fp1Start}
-            endTime={fp1End}
-          />
+          <DayItem date={race} duration={2} phase="Race" />
+          <DayItem date={quali} duration={1} phase="Qualifying" />
+          <DayItem date={fp3} duration={1} phase="Practice 3" />
+          <DayItem date={fp2} duration={1.5} phase="Practice 2" />
+          <DayItem date={fp1} duration={1.5} phase="Practice 1" />
         </DayWrapper>
       </CalendarItem>
     );

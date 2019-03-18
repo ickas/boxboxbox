@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import Moment from "react-moment";
 
 import CalendarWrapper from "../design-system/organisms/CalendarWrapper";
 import CalendarItem from "../design-system/molecules/CalendarItem";
@@ -10,8 +11,14 @@ class App extends Component {
   };
 
   render() {
+    // const race = "2019-03-17T16:10+1100";
+
     return (
       <CalendarWrapper>
+        {/* <Moment date={race} format="DD/MM/YYYY HH:mm" />
+        <Moment date={race} format="DD/MM/YYYY HH:mm" add={{ hours: 2 }} />
+        <Moment date={race} format="MMM" /> */}
+
         {Object.keys(this.state.calendar).map(key => (
           <CalendarItem
             key={key}

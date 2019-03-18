@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Moment from "react-moment";
 import styled from "styled-components";
 
 const DayItem = styled.div`
@@ -45,12 +46,20 @@ export default class extends Component {
     return (
       <DayItem>
         <div className="date">
-          {this.props.day} <span>{this.props.month}</span>
+          <Moment date={this.props.date} format="DD" />
+          <span>
+            <Moment date={this.props.date} format="MMM" />
+          </span>
         </div>
         <div className="phase">
           {this.props.phase}
           <span>
-            {this.props.startTime} - {this.props.endTime}
+            <Moment date={this.props.date} format="HH:mm" /> -{" "}
+            <Moment
+              date={this.props.date}
+              format="HH:mm"
+              add={{ hours: this.props.duration }}
+            />
           </span>
         </div>
       </DayItem>
