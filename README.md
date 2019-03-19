@@ -1,4 +1,4 @@
-The complete 2019 F1 Championship [calendar](https://www.formula1.com/en/racing/2019.html).
+The complete 2019 F1 Championship [calendar](https://www.formula1.com/en/racing/2019.html) with subscription options. All schedules are displayed in your local time zone.
 
 ## Installation
 
