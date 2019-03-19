@@ -58,7 +58,7 @@ export default class extends Component {
           target="_blank"
           rel="noreferrer"
         >
-          <Icon icon="github" />
+          <Icon icon="github" title="GitHub Project" />
         </a>
       </Footer>
     );

@@ -39,8 +39,8 @@ export default class extends Component {
     return (
       <Header>
         <span>Calendars:</span>
-        <Icon icon="apple" />
-        <Icon icon="google" />
+        <Icon icon="apple" title="Apple Calendar" />
+        <Icon icon="google" title="Google Calendar" />
       </Header>
     );
   }

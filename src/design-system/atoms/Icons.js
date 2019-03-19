@@ -13,6 +13,7 @@ export default class extends Component {
   render() {
     return (
       <svg viewBox="0 0 32 32">
+        <title>{this.props.title}</title>
         <path style={{ fill: this.props.fill }} d={icons[this.props.icon]} />
       </svg>
     );
