@@ -9,7 +9,7 @@ const calendar = [
     fp1: "2019-03-15T12:00+1100"
   },
   {
-    active: true,
+    active: false,
     title: "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2019",
     race: "2019-03-31T18:10+0300",
     quali: "2019-03-30T18:00+0300",
@@ -18,7 +18,7 @@ const calendar = [
     fp1: "2019-03-29T14:00+0300"
   },
   {
-    active: false,
+    active: true,
     title: "FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2019",
     race: "2019-04-14T14:10+0800",
     quali: "2019-04-13T14:00+0800",
