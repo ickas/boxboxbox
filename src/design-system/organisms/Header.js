@@ -21,6 +21,10 @@ const Header = styled.div`
     font-weight: 700;
   }
 
+  a {
+    height: 25px;
+  }
+
   svg {
     width: auto;
     height: 25px;
