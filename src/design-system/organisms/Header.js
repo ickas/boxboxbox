@@ -39,8 +39,20 @@ export default class extends Component {
     return (
       <Header>
         <span>Calendars:</span>
-        <Icon icon="apple" title="Apple Calendar" />
-        <Icon icon="google" title="Google Calendar" />
+        <a
+          href="webcal://p14-calendars.icloud.com/published/2/Mjc0Njc4NjgxMjc0Njc4NqTqkx9qY_9OsmGMVxlcaHt6vQoBzyQi5mrLAlL3wXA7OPaGI5j2N4E9eyV0SyJoA-mdrF9RjgmdyKQpVapBjwo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon icon="apple" title="Apple Calendar" />
+        </a>
+        <a
+          href="https://calendar.google.com/calendar/ical/henriquemacedo.pt_moivngeftb71qsc6b9qojqaef0%40group.calendar.google.com/public/basic.ics"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon icon="google" title="Google Calendar" />
+        </a>
       </Header>
     );
   }
