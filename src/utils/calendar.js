@@ -37,7 +37,7 @@ const calendar = [
   },
 
   {
-    active: true,
+    active: false,
     title: "FORMULA 1 EMIRATES GRAN PREMIO DE ESPAÑA 2019",
     race: "2019-05-12T15:10+0200",
     quali: "2019-05-11T15:00+0200",
@@ -46,7 +46,7 @@ const calendar = [
     fp1: "2019-05-10T11:00+0200"
   },
   {
-    active: false,
+    active: true,
     title: "FORMULA 1 GRAND PRIX DE MONACO 2019",
     race: "2019-05-26T15:10+0200",
     quali: "2019-05-25T15:00+0200",
