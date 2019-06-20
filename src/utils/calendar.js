@@ -55,7 +55,7 @@ const calendar = [
     fp1: "2019-05-23T11:00+0200"
   },
   {
-    active: true,
+    active: false,
     title: "FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2019",
     race: "2019-06-09T14:10-0400",
     quali: "2019-06-08T14:00-0400",
@@ -64,7 +64,7 @@ const calendar = [
     fp1: "2019-06-07T10:00-0400"
   },
   {
-    active: false,
+    active: true,
     title: "FORMULA 1 GRAND PRIX DE FRANCE 2019",
     race: "2019-06-23T15:10+0200",
     quali: "2019-06-22T15:00+0200",
