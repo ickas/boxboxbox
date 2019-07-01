@@ -73,7 +73,7 @@ const calendar = [
     fp1: "2019-06-21T11:00+0200"
   },
   {
-    active: true,
+    active: false,
     title: "FORMULA 1 MYWORLD GROSSER PREIS VON ÖSTERREICH 2019",
     race: "2019-06-30T15:10+0200",
     quali: "2019-06-29T15:00+0200",
@@ -82,7 +82,7 @@ const calendar = [
     fp1: "2019-06-28T11:00+0200"
   },
   {
-    active: false,
+    active: true,
     title: "FORMULA 1 ROLEX BRITISH GRAND PRIX 2019",
     race: "2019-07-14T14:10+0100",
     quali: "2019-07-13T14:00+0100",
