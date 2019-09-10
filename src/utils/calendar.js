@@ -100,7 +100,7 @@ const calendar = [
     fp1: "2019-07-26T11:00+0200"
   },
   {
-    active: false,
+    active: true,
     title: "FORMULA 1 MAGYAR NAGYDÍJ 2019",
     race: "2019-08-04T15:10+0200",
     quali: "2019-08-03T15:00+0200",
