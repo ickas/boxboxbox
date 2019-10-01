@@ -100,7 +100,7 @@ const calendar = [
     fp1: "2019-07-26T11:00+0200"
   },
   {
-    active: true,
+    active: false,
     title: "FORMULA 1 MAGYAR NAGYDÍJ 2019",
     race: "2019-08-04T15:10+0200",
     quali: "2019-08-03T15:00+0200",
@@ -127,7 +127,7 @@ const calendar = [
     fp1: "2019-09-06T11:00+0200"
   },
   {
-    active: true,
+    active: false,
     title: "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2019",
     race: "2019-09-22T20:10+0800",
     quali: "2019-09-21T21:00+0800",
@@ -145,7 +145,7 @@ const calendar = [
     fp1: "2019-09-27T11:00+0300"
   },
   {
-    active: false,
+    active: true,
     title: "FORMULA 1 JAPANESE GRAND PRIX 2019",
     race: "2019-10-13T14:10+0900",
     quali: "2019-10-12T15:00+0900",
