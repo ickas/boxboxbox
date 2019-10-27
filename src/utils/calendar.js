@@ -145,7 +145,7 @@ const calendar = [
     fp1: "2019-09-27T11:00+0300"
   },
   {
-    active: true,
+    active: false,
     title: "FORMULA 1 JAPANESE GRAND PRIX 2019",
     race: "2019-10-13T14:10+0900",
     quali: "2019-10-12T15:00+0900",
@@ -163,7 +163,7 @@ const calendar = [
     fp1: "2019-10-25T10:00-0500"
   },
   {
-    active: false,
+    active: true,
     title: "FORMULA 1 UNITED STATES GRAND PRIX 2019",
     race: "2019-11-03T13:10-0600",
     quali: "2019-11-02T16:00-0500",
